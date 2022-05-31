@@ -40,7 +40,6 @@ const BlogPostForm = ({update=false, id, propTitle, propDate, propBody, propCate
   const handleBodyChange = (body: String) =>{ // change to rtf
     const stringBody = JSON.stringify(body)
     setBody(stringBody);
-    console.log(stringBody)
   }
 
   const bottomPadding = {
