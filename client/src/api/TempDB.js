@@ -5,28 +5,28 @@ export const blogPosts = [
     id: 1,
     date: moment(),
     title: "First Blog Post",
-    body: "Forgive all student loans right now you crayon chewing useless president",
-    category: "Facts",
+    body: "Lorem Ipsum first post",
+    category: "Sports",
     author: "Me myself and I",
-    slug: "gastritis"
+    slug: "first_post"
   },
   {
     id: 2,
     date: moment(),
     title: "Second Blog Post",
-    body: "Forgive all student loans right now you crayon chewing useless president",
-    category: "Facts",
+    body: "Lorem Ipsum second post",
+    category: "Outdoor",
     author: "Me myself and I",
-    slug: "gastritis"
+    slug: "second_post"
   },
   {
     id: 3,
     date: moment(),
     title: "Third Blog Post",
-    body: "Forgive all student loans right now you crayon chewing useless president",
-    category: "Facts",
+    body: "Lorem Ipsum third post",
+    category: "News",
     author: "Me myself and I",
-    slug: "gastritis"
+    slug: "third_post"
   }
 ]
 
