@@ -5,7 +5,7 @@ const BlogPostSchema = new mongoose.Schema({
   date: Date,
   title: String,
   body: String,
-  category: String, // possibly change to enum, or just store as string and use reference table
+  category: String, /** @todo possibly change to enum, or just store as string and use reference table */
   author: String,
   slug: String
 })

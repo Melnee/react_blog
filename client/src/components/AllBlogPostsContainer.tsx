@@ -8,7 +8,13 @@ const AllBlogPostsContainer = () => {
   const [posts, setPosts] = useState<blogPostProps[]>(blogPosts)
 
   const handleDelete = (id: number) => {
-    //TODO: api call logic here
+    /**
+     * @todo: api call logic here
+     *
+     * @todo: consider removing below filter depending on UX. If DELETE request fails, but BlogPost still
+     * appears deleted due to the filter, then user may get frustrated, even if BlogPost reappears upon refresh
+     */
+
     const filteredPosts = posts.filter(post => post.id !== id)
     setPosts(filteredPosts)
   }
