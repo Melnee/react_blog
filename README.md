@@ -21,7 +21,15 @@ React frontend and NodeJS backend BlogPost management app.
 - Dockerization! :)
 - Debugging and full implementation of Elastic UI
 
-## Available Scripts
+## Installation and Node_Modules Preparation
+- Navigate to the "client" directory, and run 
+### `npm i`
+
+- Likewise, navigate to the "server" directory, and run 
+### `npm i`
+once more.
+
+## Running the Site
 
 While in the "client" project directory, you can run:
 
