@@ -29,8 +29,8 @@ While in the "client" project directory, you can run:
 
 to begin the frontend (React) side of the site.
 
-Likewise, while in the "server" project directory, you can run:
+While in the "server" project directory, you can run:
 
-### `npm start`
+### `nodemon server.ts`
 
-to begin the backend (NodeJS) side of the site.
+to begin the backend (NodeJS) side of the site, specifically with Nodemon, for hot reloading of backend.
